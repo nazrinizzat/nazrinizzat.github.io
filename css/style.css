@@ -530,6 +530,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0;
 }
 
+.section-header h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: center;
+  color: #999;
+}
+
 /* About Section
 --------------------------------*/
 #about {
@@ -960,16 +970,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .contact-info address, #contact .contact-info p {
   margin-bottom: 0;
   color: #000;
-}
-
-#contact .section-header h3 {
-  font-size: 18px;
-  margin-bottom: 15px;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-decoration: underline;
-  text-align: center;
-  color: #999;
 }
 
 #contact .contact-info h3 {

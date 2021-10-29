@@ -277,15 +277,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu ul {
-  position: absolute;
+  position: relative;
   display: none;
   top: 100%;
   left: 0;
   z-index: 99;
-}
-
-.nav-menu ul ul {
-  position: relative;
 }
 
 .nav-menu li {
@@ -301,12 +297,13 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu li.sfHover > ul {
   display: block;
 }
-
+/* 
 .nav-menu ul ul {
   top: 0;
+  margin: 0;
   left: 100%;
 }
-
+ */
 .nav-menu ul li {
   min-width: 180px;
 }
@@ -387,10 +384,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu ul li:hover > a {
   color: #50d8af;
-}
-
-.nav-menu ul ul {
-  margin: 0;
 }
 
 /* Mobile Nav Toggle */

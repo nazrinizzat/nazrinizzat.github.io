@@ -284,6 +284,10 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 99;
 }
 
+.nav-menu ul ul {
+  position: relative;
+}
+
 .nav-menu li {
   position: relative;
   white-space: nowrap;
@@ -307,9 +311,10 @@ h1, h2, h3, h4, h5, h6 {
   min-width: 180px;
 }
 
-.nav-menu > ul > li:last-child > ul ul {
+.nav-menu > ul > li > ul ul {
         left: -100%;
 }
+
 /* Nav Menu Arrows */
 .sf-arrows .sf-with-ul {
   padding-right: 22px;

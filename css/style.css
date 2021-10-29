@@ -303,13 +303,13 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   left: 100%;
 }
- */
-.nav-menu ul li {
-  min-width: 180px;
-}
 
 .nav-menu > ul > li > ul ul {
         left: -100%;
+}
+ */
+.nav-menu ul li {
+  min-width: 180px;
 }
 
 /* Nav Menu Arrows */
